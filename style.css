@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Limelight|Lato');
+
+* {
+  box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+}
+body {
+  background-color: #29292d;
+  color: Azure;
+  font-size: 3.5vw;
+  padding: 1rem;
+  font-family: Lato;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  font-size: 5.6vw;
+  font-family: 'Limelight';
+  background: -webkit-linear-gradient(right,#FCD8BB,#EBA8F4);
+  font-weight: 700;
+  color: #EBA8F4;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  position: relative;
+  white-space: nowrap;
+  white-space: normal;
+}
+input {
+  background-color: transparent;
+  font-size: 3.5vw;
+  border: 2px solid azure;
+  color: Gold;
+  width: 50px;
+  text-align: center;
+  display: inline;
+  padding: 10;
+  border-radius: 5px;
+  transition: border-color 0.5s;
+}
+input:focus {
+    outline: 0;
+    border: 2px solid Gold;
+  }
+input#base {
+  width: 14vw;
+}
+input#monthly {
+  width: 10vw;
+}
+input#years {
+  width: 6vw;
+}
+input#rate {
+  width: 6vw;
+}
+.result-container {
+  color: Gold;
+  display: inline;
+}
+.note {
+  margin-top: auto;
+  right: 1rem;
+  bottom: 1rem;
+  font-size: 1.5vw;
+  color: #78787b;
+}
