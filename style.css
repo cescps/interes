@@ -58,7 +58,10 @@ input#rate {
 }
 .result-container {
   color: Gold;
-  display: inline;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 .note {
   margin-top: auto;
