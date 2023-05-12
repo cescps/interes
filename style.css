@@ -10,6 +10,7 @@ body {
   background-color: #29292d;
   color: Azure;
   font-size: 3.5vw;
+    margin: 0 2rem;
   padding: 1rem;
   font-family: Lato;
   line-height: 1.5;
@@ -63,7 +64,6 @@ input#rate {
   justify-content: center;
   align-items: center;
   height: 100%;
-  margin: 0 2rem;
 }
 .note {
   margin-top: auto;
