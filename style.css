@@ -27,6 +27,7 @@ h1 {
   position: relative;
   white-space: nowrap;
   white-space: normal;
+  margin: 0 2rem;
 }
 input {
   background-color: transparent;
@@ -62,6 +63,7 @@ input#rate {
   justify-content: center;
   align-items: center;
   height: 100%;
+  margin: 0 2rem;
 }
 .note {
   margin-top: auto;
